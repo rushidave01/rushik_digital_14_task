@@ -1,0 +1,1962 @@
+{
+  "events": [
+    {
+      "type": "ncaa_baseball",
+      "id": 5689760,
+      "datetime_utc": "2022-05-25T15:59:00",
+      "venue": {
+        "state": "AZ",
+        "name_v2": "Scottsdale Stadium",
+        "postal_code": "85251",
+        "name": "Scottsdale Stadium",
+        "links": [],
+        "timezone": "America/Phoenix",
+        "url": "https://seatgeek.com/venues/scottsdale-stadium/tickets",
+        "score": 0.56,
+        "location": {
+          "lat": 33.4893,
+          "lon": -111.921
+        },
+        "address": "7408 East Osborn Road",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 5,
+        "city": "Scottsdale",
+        "slug": "scottsdale-stadium",
+        "extended_address": "Scottsdale, AZ 85251",
+        "id": 3925,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 753,
+        "capacity": 12000,
+        "display_location": "Scottsdale, AZ"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "ncaa_baseball",
+          "name": "Pac-12 Baseball Tournament",
+          "image": "https://seatgeek.com/images/performers-landscape/pac-12-baseball-tournament-be4b90/797663/huge.jpg",
+          "id": 797663,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/pac-12-baseball-tournament-be4b90/797663/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 5
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010200,
+              "name": "ncaa_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/pac-12-baseball-tournament-tickets",
+          "score": 0.24,
+          "slug": "pac-12-baseball-tournament",
+          "home_venue_id": null,
+          "short_name": "Pac-12 Baseball Tournament",
+          "num_upcoming_events": 5,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "home_team": true,
+          "location": null,
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2022-05-25T03:30:00",
+      "time_tbd": true,
+      "short_title": "Pac-12 Baseball Tournament - All-Session",
+      "visible_until_utc": "2022-05-26T12:29:00",
+      "stats": {
+        "listing_count": null,
+        "average_price": null,
+        "lowest_price_good_deals": null,
+        "lowest_price": null,
+        "highest_price": null,
+        "visible_listing_count": null,
+        "dq_bucket_counts": null,
+        "median_price": null,
+        "lowest_sg_base_price": null,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010200,
+          "name": "ncaa_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/pac-12-baseball-tournament-all-session-tickets/ncaa-baseball/2022-05-25-3-30-am/5689760",
+      "score": 0,
+      "announce_date": "2022-04-29T00:00:00",
+      "created_at": "2022-04-29T16:57:36",
+      "date_tbd": false,
+      "title": "Pac-12 Baseball Tournament - All-Session",
+      "popularity": 0,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5562195,
+      "datetime_utc": "2022-05-26T07:30:00",
+      "venue": {
+        "state": "MD",
+        "name_v2": "Ripken Stadium",
+        "postal_code": "21001",
+        "name": "Ripken Stadium",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/ripken-stadium/tickets",
+        "score": 0.37,
+        "location": {
+          "lat": 39.5308,
+          "lon": -76.1859
+        },
+        "address": "873 Long Drive",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 39,
+        "city": "Aberdeen",
+        "slug": "ripken-stadium",
+        "extended_address": "Aberdeen, MD 21001",
+        "id": 385,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 512,
+        "capacity": 6000,
+        "display_location": "Aberdeen, MD"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Aberdeen IronBirds",
+          "image": "https://seatgeek.com/images/performers-landscape/aberdeen-ironbirds-77bcf7/9224/huge.jpg",
+          "id": 9224,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/aberdeen-ironbirds-77bcf7/9224/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 90
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": null,
+          "url": "https://seatgeek.com/aberdeen-ironbirds-tickets",
+          "score": 0.26,
+          "slug": "aberdeen-ironbirds",
+          "home_venue_id": 385,
+          "short_name": "Aberdeen Ironbirds",
+          "num_upcoming_events": 90,
+          "colors": null,
+          "image_license": null,
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 39.5308,
+            "lon": -76.1859
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Wilmington Blue Rocks",
+          "image": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg",
+          "id": 9433,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 90
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/wilmington-blue-rocks-tickets",
+          "score": 0.22,
+          "slug": "wilmington-blue-rocks",
+          "home_venue_id": 198,
+          "short_name": "Wilmington Blue Rocks",
+          "num_upcoming_events": 90,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 39.73,
+            "lon": -75.56
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2022-05-26T03:30:00",
+      "time_tbd": true,
+      "short_title": "Wilmington Blue Rocks at Aberdeen IronBirds",
+      "visible_until_utc": "2022-05-27T04:00:00",
+      "stats": {
+        "listing_count": 6,
+        "average_price": 52,
+        "lowest_price_good_deals": null,
+        "lowest_price": 37,
+        "highest_price": 61,
+        "visible_listing_count": 6,
+        "dq_bucket_counts": null,
+        "median_price": 49,
+        "lowest_sg_base_price": 23,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/wilmington-blue-rocks-at-aberdeen-ironbirds-tickets/minor-league-baseball/2022-05-26-3-30-am/5562195",
+      "score": 0.311,
+      "announce_date": "2021-11-11T00:00:00",
+      "created_at": "2021-11-11T16:00:08",
+      "date_tbd": false,
+      "title": "Wilmington Blue Rocks at Aberdeen IronBirds",
+      "popularity": 0.698,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5563297,
+      "datetime_utc": "2022-05-26T07:30:00",
+      "venue": {
+        "state": "NY",
+        "name_v2": "NBT Bank Stadium",
+        "postal_code": "13208",
+        "name": "NBT Bank Stadium",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/nbt-bank-stadium/tickets",
+        "score": 0.39,
+        "location": {
+          "lat": 43.0766,
+          "lon": -76.1652
+        },
+        "address": "1 Tex Simone Drive",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 61,
+        "city": "Syracuse",
+        "slug": "nbt-bank-stadium",
+        "extended_address": "Syracuse, NY 13208",
+        "id": 70,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 555,
+        "capacity": 11117,
+        "display_location": "Syracuse, NY"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Syracuse Mets",
+          "image": "https://seatgeek.com/images/performers-landscape/syracuse-mets-c5d6a7/9245/huge.jpg",
+          "id": 9245,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/syracuse-mets-c5d6a7/9245/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 113
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": null,
+          "url": "https://seatgeek.com/syracuse-mets-tickets",
+          "score": 0.23,
+          "slug": "syracuse-mets",
+          "home_venue_id": 70,
+          "short_name": "Syracuse Mets",
+          "num_upcoming_events": 113,
+          "colors": null,
+          "image_license": null,
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 43.0766,
+            "lon": -76.1652
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Rochester Red Wings",
+          "image": "https://seatgeek.com/images/performers-landscape/rochester-red-wings-5f3e43/9269/huge.jpg",
+          "id": 9269,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/rochester-red-wings-5f3e43/9269/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 103
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022",
+          "url": "https://seatgeek.com/rochester-red-wings-tickets",
+          "score": 0.23,
+          "slug": "rochester-red-wings",
+          "home_venue_id": 4298,
+          "short_name": "Rochester Red Wings",
+          "num_upcoming_events": 103,
+          "colors": null,
+          "image_license": "SeatGeek - 2022",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 43.1584,
+            "lon": -77.6203
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2022-05-26T03:30:00",
+      "time_tbd": true,
+      "short_title": "Rochester Red Wings at Syracuse Mets",
+      "visible_until_utc": "2022-05-27T04:00:00",
+      "stats": {
+        "listing_count": 8,
+        "average_price": 38,
+        "lowest_price_good_deals": 18,
+        "lowest_price": 18,
+        "highest_price": 62,
+        "visible_listing_count": 8,
+        "dq_bucket_counts": [
+          0,
+          1,
+          3,
+          3,
+          1,
+          2,
+          0,
+          0
+        ],
+        "median_price": 28,
+        "lowest_sg_base_price": 8,
+        "lowest_sg_base_price_good_deals": 8
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/rochester-red-wings-at-syracuse-mets-tickets/minor-league-baseball/2022-05-26-3-30-am/5563297",
+      "score": 0.325,
+      "announce_date": "2021-11-12T00:00:00",
+      "created_at": "2021-11-12T00:10:07",
+      "date_tbd": false,
+      "title": "Rochester Red Wings at Syracuse Mets",
+      "popularity": 0.704,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {
+        "checkout_disclosures": {
+          "messages": [
+            {
+              "text": "All purchases are 100% guaranteed. Prices set by the seller may be above or below face value."
+            }
+          ]
+        }
+      },
+      "conditional": false,
+      "enddatetime_utc": null,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5566637,
+      "datetime_utc": "2022-05-26T07:30:00",
+      "venue": {
+        "state": "VA",
+        "name_v2": "Calvin Falwell Field",
+        "postal_code": "24501",
+        "name": "Calvin Falwell Field",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/calvin-falwell-field/tickets",
+        "score": 0,
+        "location": {
+          "lat": 37.393,
+          "lon": -79.1661
+        },
+        "address": "3180 Fort Ave",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 45,
+        "city": "Lynchburg",
+        "slug": "calvin-falwell-field",
+        "extended_address": "Lynchburg, VA 24501",
+        "id": 142310,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 573,
+        "capacity": 0,
+        "display_location": "Lynchburg, VA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Lynchburg Hillcats",
+          "image": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg",
+          "id": 9425,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 78
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/lynchburg-hillcats-tickets",
+          "score": 0.19,
+          "slug": "lynchburg-hillcats",
+          "home_venue_id": 142310,
+          "short_name": "Lynchburg Hillcats",
+          "num_upcoming_events": 78,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 37.393,
+            "lon": -79.1661
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Columbia Fireflies",
+          "image": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg",
+          "id": 451737,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 91
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/columbia-fireflies-tickets",
+          "score": 0.26,
+          "slug": "columbia-fireflies",
+          "home_venue_id": 265316,
+          "short_name": "Columbia Fireflies",
+          "num_upcoming_events": 91,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 34.0198,
+            "lon": -81.0308
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2022-05-26T03:30:00",
+      "time_tbd": true,
+      "short_title": "Columbia Fireflies at Lynchburg Hillcats",
+      "visible_until_utc": "2022-05-27T04:00:00",
+      "stats": {
+        "listing_count": null,
+        "average_price": null,
+        "lowest_price_good_deals": null,
+        "lowest_price": null,
+        "highest_price": null,
+        "visible_listing_count": null,
+        "dq_bucket_counts": null,
+        "median_price": null,
+        "lowest_sg_base_price": null,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/columbia-fireflies-at-lynchburg-hillcats-tickets/minor-league-baseball/2022-05-26-3-30-am/5566637",
+      "score": 0,
+      "announce_date": "2021-11-15T00:00:00",
+      "created_at": "2021-11-15T16:00:04",
+      "date_tbd": false,
+      "title": "Columbia Fireflies at Lynchburg Hillcats",
+      "popularity": 0,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "concert",
+      "id": 5576656,
+      "datetime_utc": "2022-05-26T08:30:00",
+      "venue": {
+        "state": "TN",
+        "name_v2": "Bigfoot Adventure",
+        "postal_code": "37387",
+        "name": "Bigfoot Adventure",
+        "links": [],
+        "timezone": "America/Chicago",
+        "url": "https://seatgeek.com/venues/bigfoot-adventure/tickets",
+        "score": 0,
+        "location": {
+          "lat": 35.2956,
+          "lon": -85.7725
+        },
+        "address": "518 Brawley Road",
+        "country": "US",
+        "has_upcoming_events": false,
+        "num_upcoming_events": 0,
+        "city": "Tracy City",
+        "slug": "bigfoot-adventure",
+        "extended_address": "Tracy City, TN 37387",
+        "id": 515832,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 575,
+        "capacity": 0,
+        "display_location": "Tracy City, TN"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Late Night Radio",
+          "image": "https://seatgeek.com/images/performers-landscape/generic-concerts-af2fe3/677165/35972/huge.jpg",
+          "id": 268974,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/generic-concerts-af2fe3/677165/35972/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 5
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/late-night-radio-tickets",
+          "score": 0.26,
+          "slug": "late-night-radio",
+          "home_venue_id": null,
+          "short_name": "Late Night Radio",
+          "num_upcoming_events": 5,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "genres": [
+            {
+              "id": 457,
+              "name": "Alternative",
+              "slug": "alternative",
+              "primary": true,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/h-e-r-660be5/77787/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/h-e-r-e01add/77787/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/h-e-r-1899fd/77787/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/h-e-r-133d9b/77787/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/h-e-r-f954e2/77787/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/h-e-r-593f99/77787/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/h-e-r-b590ad/77787/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/h-e-r-f38e4f/77787/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/h-e-r-611703/77787/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/h-e-r-b3dba2/77787/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/h-e-r-8b31a5/77787/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/h-e-r-f43303/77787/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/h-e-r-49fa2b/77787/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/h-e-r-2f1580/77787/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/h-e-r-91efe5/77787/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/h-e-r-e5426d/77787/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/h-e-r-73254d/77787/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/h-e-r-02285e/77787/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/h-e-r-ac03cc/77787/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/h-e-r-a5ec20/77787/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/h-e-r-2f1580/77787/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            }
+          ],
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": ""
+        },
+        {
+          "type": "band",
+          "name": "Chachuba",
+          "image": "https://seatgeek.com/images/performers-landscape/generic-concerts-af2fe3/677165/35972/huge.jpg",
+          "id": 325656,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/generic-concerts-af2fe3/677165/35972/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": false,
+          "stats": {
+            "event_count": 0
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/chachuba-tickets",
+          "score": 0.27,
+          "slug": "chachuba",
+          "home_venue_id": null,
+          "short_name": "Chachuba",
+          "num_upcoming_events": 0,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "genres": [
+            {
+              "id": 477,
+              "name": "Electronic",
+              "slug": "electronic",
+              "primary": true,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-c8917c/7960/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-df9d32/7960/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-76bf68/7960/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-58e346/7960/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-413f86/7960/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-4b5902/7960/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-7903b3/7960/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-3e199a/7960/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-af8bdf/7960/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-316de4/7960/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-cd438d/7960/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-17c552/7960/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-f07941/7960/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-6911d9/7960/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-581b05/7960/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-32e2d1/7960/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-b76f3b/7960/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-e794a3/7960/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-8bd804/7960/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-ae8e0e/7960/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/swedish-house-mafia-6911d9/7960/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            },
+            {
+              "id": 976,
+              "name": "Techno",
+              "slug": "techno",
+              "primary": false,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/alesso-c38cb4/14236/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/alesso-b3f581/14236/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/alesso-5b82d7/14236/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/alesso-6302aa/14236/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/alesso-bb078c/14236/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/alesso-21017b/14236/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/alesso-6802ed/14236/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/alesso-18935f/14236/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/alesso-a49a53/14236/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/alesso-88e7a6/14236/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/alesso-42a0e7/14236/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/alesso-c811e4/14236/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/alesso-062785/14236/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/alesso-ccea76/14236/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/alesso-6da896/14236/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/alesso-6d80f0/14236/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/alesso-6ee407/14236/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/alesso-c12f1e/14236/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/alesso-c5d5d4/14236/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/alesso-ac79e1/14236/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/alesso-ccea76/14236/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            }
+          ],
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2022-05-26T03:30:00",
+      "time_tbd": true,
+      "short_title": "Late Night Radio with Chachuba",
+      "visible_until_utc": "2022-05-27T05:00:00",
+      "stats": {
+        "listing_count": null,
+        "average_price": null,
+        "lowest_price_good_deals": null,
+        "lowest_price": null,
+        "highest_price": null,
+        "visible_listing_count": null,
+        "dq_bucket_counts": null,
+        "median_price": null,
+        "lowest_sg_base_price": null,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 2000000,
+          "name": "concert",
+          "parent_id": null,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/late-night-radio-with-chachuba-tickets/tracy-city-tennessee-bigfoot-adventure-2022-05-26-3-30-am/concert/5576656",
+      "score": 0,
+      "announce_date": "2021-11-23T00:00:00",
+      "created_at": "2021-11-23T16:01:59",
+      "date_tbd": false,
+      "title": "Late Night Radio with Chachuba",
+      "popularity": 0,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5580217,
+      "datetime_utc": "2022-05-26T08:30:00",
+      "venue": {
+        "state": "WI",
+        "name_v2": "ABC Supply Stadium",
+        "postal_code": "53511",
+        "name": "ABC Supply Stadium",
+        "links": [],
+        "timezone": "America/Chicago",
+        "url": "https://seatgeek.com/venues/abc-supply-stadium/tickets",
+        "score": 0,
+        "location": {
+          "lat": 42.4975,
+          "lon": -89.04
+        },
+        "address": "217 Shirland Avenue",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 45,
+        "city": "Beloit",
+        "slug": "abc-supply-stadium",
+        "extended_address": "Beloit, WI 53511",
+        "id": 519814,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 669,
+        "capacity": 0,
+        "display_location": "Beloit, WI"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Beloit Snappers",
+          "image": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg",
+          "id": 9344,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 84
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/beloit-snappers-tickets",
+          "score": 0.19,
+          "slug": "beloit-snappers",
+          "home_venue_id": 519814,
+          "short_name": "Beloit Snappers",
+          "num_upcoming_events": 84,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 42.4975,
+            "lon": -89.04
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Lansing Lugnuts",
+          "image": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg",
+          "id": 9305,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 90
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/lansing-lugnuts-tickets",
+          "score": 0.2,
+          "slug": "lansing-lugnuts",
+          "home_venue_id": 8870,
+          "short_name": "Lansing Lugnuts",
+          "num_upcoming_events": 90,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 42.7342,
+            "lon": -84.5456
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2022-05-26T03:30:00",
+      "time_tbd": true,
+      "short_title": "Lansing Lugnuts at Beloit Snappers",
+      "visible_until_utc": "2022-05-27T05:00:00",
+      "stats": {
+        "listing_count": 5,
+        "average_price": 25,
+        "lowest_price_good_deals": null,
+        "lowest_price": 18,
+        "highest_price": 34,
+        "visible_listing_count": 5,
+        "dq_bucket_counts": null,
+        "median_price": 22,
+        "lowest_sg_base_price": 8,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/lansing-lugnuts-at-beloit-snappers-tickets/minor-league-baseball/2022-05-26-3-30-am/5580217",
+      "score": 0,
+      "announce_date": "2021-11-26T00:00:00",
+      "created_at": "2021-11-26T16:00:09",
+      "date_tbd": false,
+      "title": "Lansing Lugnuts at Beloit Snappers",
+      "popularity": 0,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "family",
+      "id": 5535925,
+      "datetime_utc": "2022-05-26T10:30:00",
+      "venue": {
+        "state": "NV",
+        "name_v2": "Le Theatre Des Arts at Paris Las Vegas",
+        "postal_code": "89109",
+        "name": "Le Theatre Des Arts at Paris Las Vegas",
+        "links": [],
+        "timezone": "America/Los_Angeles",
+        "url": "https://seatgeek.com/venues/le-theatre-des-arts-at-paris-las-vegas/tickets",
+        "score": 0.47,
+        "location": {
+          "lat": 36.1125,
+          "lon": -115.171
+        },
+        "address": "3655 Las Vegas Boulevard South",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 220,
+        "city": "Las Vegas",
+        "slug": "le-theatre-des-arts-at-paris-las-vegas",
+        "extended_address": "Las Vegas, NV 89109",
+        "id": 1610,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 839,
+        "capacity": 1200,
+        "display_location": "Las Vegas, NV"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "theater_family",
+          "name": "Eiffel Tower Experience",
+          "image": "https://seatgeek.com/images/performers-landscape/generic-family-entertainment-f800b0/677155/32439/huge.jpg",
+          "id": 605657,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/generic-family-entertainment-f800b0/677155/32439/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 220
+          },
+          "taxonomies": [
+            {
+              "id": 3000000,
+              "name": "theater",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 3050000,
+              "name": "family",
+              "parent_id": 3000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "https://www.flickr.com/photos/30478819@N08/33015766008/in/photolist-SiuqYY-2aAJ6nb-27tFEJr-TfEqvU-5aFqe6-2fRfscU-5DcTqo-aeB1dg-bwAYdx-2bPCenq-8ARy1R-bEMH74-8AVpGL-8hqR5S-VdZ7nk-jxcedC-22scg7N-9xTeGb-JpxkhQ-aZSDGK-TeZcdy-UyCnMt-KAvtd8-Zs5p3j-dAxQMP-wWQ9yZ-SVBXhi-U6EHKs-2avypie-27tFDtv-28L2Gyd-27tFTRP-266CDAq-55FPdQ-cQMWE3-cQMWJC-23gcZ9w-eUSFKb-o7da-6iS3sK-bdJx7r-4Li5MP-aFafGG-4Li66X-7JPSpe-4faxNq-bVSDK2-bVSCu4-bVSyga-bVSzfF",
+          "url": "https://seatgeek.com/eiffel-tower-experience-tickets",
+          "score": 0.23,
+          "slug": "eiffel-tower-experience",
+          "home_venue_id": null,
+          "short_name": "Eiffel Tower Experience",
+          "num_upcoming_events": 220,
+          "colors": null,
+          "image_license": "https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich",
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": "[This image](https://www.flickr.com/photos/30478819@N08/33015766008/in/photolist-SiuqYY-2aAJ6nb-27tFEJr-TfEqvU-5aFqe6-2fRfscU-5DcTqo-aeB1dg-bwAYdx-2bPCenq-8ARy1R-bEMH74-8AVpGL-8hqR5S-VdZ7nk-jxcedC-22scg7N-9xTeGb-JpxkhQ-aZSDGK-TeZcdy-UyCnMt-KAvtd8-Zs5p3j-dAxQMP-wWQ9yZ-SVBXhi-U6EHKs-2avypie-27tFDtv-28L2Gyd-27tFTRP-266CDAq-55FPdQ-cQMWE3-cQMWJC-23gcZ9w-eUSFKb-o7da-6iS3sK-bdJx7r-4Li5MP-aFafGG-4Li66X-7JPSpe-4faxNq-bVSDK2-bVSCu4-bVSyga-bVSzfF) is available through [Creative Commons](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich) on Flickr. Email [images@seatgeek.com](mailto:images@seatgeek.com) with any questions."
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2022-05-26T03:30:00",
+      "time_tbd": true,
+      "short_title": "Eiffel Tower Experience - Las Vegas",
+      "visible_until_utc": "2022-05-27T07:00:00",
+      "stats": {
+        "listing_count": null,
+        "average_price": null,
+        "lowest_price_good_deals": null,
+        "lowest_price": null,
+        "highest_price": null,
+        "visible_listing_count": null,
+        "dq_bucket_counts": null,
+        "median_price": null,
+        "lowest_sg_base_price": null,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 3000000,
+          "name": "theater",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 3050000,
+          "name": "family",
+          "parent_id": 3000000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/eiffel-tower-experience-las-vegas-tickets/family/2022-05-26-3-30-am/5535925",
+      "score": 0.342,
+      "announce_date": "2021-10-23T00:00:00",
+      "created_at": "2021-10-23T16:03:11",
+      "date_tbd": false,
+      "title": "Eiffel Tower Experience - Las Vegas",
+      "popularity": 0.7,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {
+        "checkout_disclosures": {
+          "messages": [
+            {
+              "text": "This app belongs to SeatGeek, a secondary ticket exchange."
+            }
+          ]
+        }
+      },
+      "conditional": false,
+      "enddatetime_utc": null,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5590003,
+      "datetime_utc": "2022-05-26T10:30:00",
+      "venue": {
+        "state": "CA",
+        "name_v2": "Lake Elsinore Diamond",
+        "postal_code": "92530",
+        "name": "Lake Elsinore Diamond",
+        "links": [],
+        "timezone": "America/Los_Angeles",
+        "url": "https://seatgeek.com/venues/lake-elsinore-diamond/tickets",
+        "score": 0.39,
+        "location": {
+          "lat": 33.6547,
+          "lon": -117.303
+        },
+        "address": "500 Diamond Drive",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 46,
+        "city": "Lake Elsinore",
+        "slug": "lake-elsinore-diamond",
+        "extended_address": "Lake Elsinore, CA 92530",
+        "id": 3551,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 803,
+        "capacity": 7866,
+        "display_location": "Lake Elsinore, CA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Lake Elsinore Storm",
+          "image": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg",
+          "id": 9442,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/generic-minor-league-baseball-9c1f76/677210/35944/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 52
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/lake-elsinore-storm-tickets",
+          "score": 0.22,
+          "slug": "lake-elsinore-storm",
+          "home_venue_id": 3551,
+          "short_name": "Lake Elsinore Storm",
+          "num_upcoming_events": 52,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 33.6547,
+            "lon": -117.303
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Inland Empire 66ers",
+          "image": "https://seatgeek.com/images/performers-landscape/inland-empire-66ers-faad29/9417/huge.jpg",
+          "id": 9417,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/inland-empire-66ers-faad29/9417/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 40
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": null,
+          "url": "https://seatgeek.com/inland-empire-66ers-tickets",
+          "score": 0.21,
+          "slug": "inland-empire-66ers",
+          "home_venue_id": 5263,
+          "short_name": "Inland Empire 66ers",
+          "num_upcoming_events": 40,
+          "colors": null,
+          "image_license": null,
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 34.0972,
+            "lon": -117.296
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2022-05-26T03:30:00",
+      "time_tbd": true,
+      "short_title": "Inland Empire 66ers at Lake Elsinore Storm",
+      "visible_until_utc": "2022-05-27T07:00:00",
+      "stats": {
+        "listing_count": 122,
+        "average_price": 46,
+        "lowest_price_good_deals": null,
+        "lowest_price": 14,
+        "highest_price": 63,
+        "visible_listing_count": 122,
+        "dq_bucket_counts": null,
+        "median_price": 53,
+        "lowest_sg_base_price": 5,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/inland-empire-66ers-at-lake-elsinore-storm-tickets/minor-league-baseball/2022-05-26-3-30-am/5590003",
+      "score": 0.347,
+      "announce_date": "2021-12-04T00:00:00",
+      "created_at": "2021-12-04T16:00:16",
+      "date_tbd": false,
+      "title": "Inland Empire 66ers at Lake Elsinore Storm",
+      "popularity": 0.727,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "theater",
+      "id": 5623880,
+      "datetime_utc": "2022-05-26T10:30:00",
+      "venue": {
+        "state": "CA",
+        "name_v2": "Anaheim Convention Center",
+        "postal_code": "92802",
+        "name": "Anaheim Convention Center",
+        "links": [],
+        "timezone": "America/Los_Angeles",
+        "url": "https://seatgeek.com/venues/anaheim-convention-center/tickets",
+        "score": 0.4,
+        "location": {
+          "lat": 33.8032,
+          "lon": -117.92
+        },
+        "address": "800 West Katella Avenue",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 8,
+        "city": "Anaheim",
+        "slug": "anaheim-convention-center",
+        "extended_address": "Anaheim, CA 92802",
+        "id": 5281,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 803,
+        "capacity": 7500,
+        "display_location": "Anaheim, CA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "theater",
+          "name": "Star Wars Celebration",
+          "image": null,
+          "id": 34986,
+          "images": {},
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 4
+          },
+          "taxonomies": [
+            {
+              "id": 3000000,
+              "name": "theater",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/star-wars-celebration-tickets",
+          "score": 0.28,
+          "slug": "star-wars-celebration",
+          "home_venue_id": null,
+          "short_name": "Star Wars Celebration",
+          "num_upcoming_events": 4,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2022-05-26T03:30:00",
+      "time_tbd": true,
+      "short_title": "Star Wars Celebration - Anaheim (4 Day Pass)",
+      "visible_until_utc": "2022-05-27T07:00:00",
+      "stats": {
+        "listing_count": 5,
+        "average_price": 2830,
+        "lowest_price_good_deals": null,
+        "lowest_price": 98,
+        "highest_price": 7785,
+        "visible_listing_count": 4,
+        "dq_bucket_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median_price": 1573,
+        "lowest_sg_base_price": 62,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 3000000,
+          "name": "theater",
+          "parent_id": null,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/star-wars-celebration-anaheim-4-day-pass-tickets/theater/2022-05-26-3-30-am/5623880",
+      "score": 0.472,
+      "announce_date": "2022-01-20T00:00:00",
+      "created_at": "2022-01-20T20:58:20",
+      "date_tbd": false,
+      "title": "Star Wars Celebration - Anaheim (4 Day Pass)",
+      "popularity": 0.76,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "general_admission": true,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "concert",
+      "id": 5629788,
+      "datetime_utc": "2022-05-26T10:30:00",
+      "venue": {
+        "state": "CA",
+        "name_v2": "The Catalyst",
+        "postal_code": "95060",
+        "name": "The Catalyst",
+        "links": [],
+        "timezone": "America/Los_Angeles",
+        "url": "https://seatgeek.com/venues/the-catalyst/tickets",
+        "score": 0.46,
+        "location": {
+          "lat": 36.9713,
+          "lon": -122.026
+        },
+        "address": "1011 Pacific Avenue",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 13,
+        "city": "Santa Cruz",
+        "slug": "the-catalyst",
+        "extended_address": "Santa Cruz, CA 95060",
+        "id": 890,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 828,
+        "capacity": 800,
+        "display_location": "Santa Cruz, CA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Koffee",
+          "image": "https://seatgeek.com/images/performers-landscape/koffee-fdfbb0/705773/huge.jpg",
+          "id": 705773,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/koffee-fdfbb0/705773/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 3
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "Rick Kern / WireImage / Getty Images",
+          "url": "https://seatgeek.com/koffee-tickets",
+          "score": 0.35,
+          "slug": "koffee",
+          "home_venue_id": null,
+          "short_name": "Koffee",
+          "num_upcoming_events": 3,
+          "colors": null,
+          "image_license": "rightsmanaged",
+          "genres": [
+            {
+              "id": 491,
+              "name": "Hip-Hop",
+              "slug": "hip-hop",
+              "primary": true,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/daddy-yankee-7eccc7/529/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/daddy-yankee-169623/529/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/daddy-yankee-7f0fa8/529/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/daddy-yankee-003ae3/529/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/daddy-yankee-e6e597/529/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/daddy-yankee-f22af7/529/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/daddy-yankee-66ca8a/529/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/daddy-yankee-5aab9b/529/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/daddy-yankee-a0ef91/529/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/daddy-yankee-fcf53a/529/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/daddy-yankee-568d4e/529/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/daddy-yankee-e7507b/529/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/daddy-yankee-07f96c/529/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/daddy-yankee-9b4c5e/529/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/daddy-yankee-b02b82/529/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/daddy-yankee-01f0e3/529/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/daddy-yankee-6cb298/529/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/daddy-yankee-901bd7/529/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/daddy-yankee-e3bfc0/529/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/daddy-yankee-29a756/529/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/daddy-yankee-9b4c5e/529/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            },
+            {
+              "id": 493,
+              "name": "Rap",
+              "slug": "rap",
+              "primary": false,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/bad-bunny-f48232/616548/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/bad-bunny-a42eba/616548/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/bad-bunny-2ad15f/616548/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/bad-bunny-3f18cf/616548/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/bad-bunny-6d3dd5/616548/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/bad-bunny-3692b6/616548/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/bad-bunny-b2f18a/616548/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/bad-bunny-23fbee/616548/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/bad-bunny-90e730/616548/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/bad-bunny-b330a9/616548/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/bad-bunny-516a7d/616548/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/bad-bunny-0b0c49/616548/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/bad-bunny-f86d5f/616548/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/bad-bunny-9418df/616548/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/bad-bunny-f58abc/616548/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/bad-bunny-bbce58/616548/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/bad-bunny-56e8c0/616548/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/bad-bunny-477576/616548/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/bad-bunny-5681c6/616548/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/bad-bunny-6b1ea4/616548/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/bad-bunny-9418df/616548/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            }
+          ],
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": "(c) Rick Kern / WireImage / Getty Images"
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2022-05-26T03:30:00",
+      "time_tbd": true,
+      "short_title": "Koffee",
+      "visible_until_utc": "2022-05-27T07:00:00",
+      "stats": {
+        "listing_count": 3,
+        "average_price": 95,
+        "lowest_price_good_deals": null,
+        "lowest_price": 72,
+        "highest_price": 141,
+        "visible_listing_count": 3,
+        "dq_bucket_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median_price": 73,
+        "lowest_sg_base_price": 49,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 2000000,
+          "name": "concert",
+          "parent_id": null,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/koffee-tickets/santa-cruz-california-the-catalyst-2022-05-26-3-30-am/concert/5629788",
+      "score": 0.467,
+      "announce_date": "2022-02-01T00:00:00",
+      "created_at": "2022-02-01T00:09:50",
+      "date_tbd": false,
+      "title": "Koffee",
+      "popularity": 0.753,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "general_admission": true,
+      "themes": [],
+      "domain_information": []
+    }
+  ],
+  "meta": {
+    "total": 78672,
+    "took": 11,
+    "page": 1,
+    "per_page": 10,
+    "geolocation": null
+  }
+}
