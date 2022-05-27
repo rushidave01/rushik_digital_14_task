@@ -10,4 +10,4 @@ If we look at the technical side then I have used following pub packages.
 - flutter_bloc: Flutter bloc architecture.
 - Dio: For Api calling.
 - intl: For date formatting type of operations.
-- http_mock_adapter (dev dependency): for writing unit test.# rushik_digital_14_task
+- http_mock_adapter (dev dependency): for writing unit test.
