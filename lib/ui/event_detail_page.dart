@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:rushik_digital_14_task/entities/event_list_item_entity.dart';
 
 class EventDetailPage extends StatefulWidget {
-  const EventDetailPage({Key? key}) : super(key: key);
-
+  const EventDetailPage({Key? key,required this.event}) : super(key: key);
+  final Events event;
   @override
   _EventDetailPageState createState() => _EventDetailPageState();
 }
@@ -12,7 +11,6 @@ class EventDetailPage extends StatefulWidget {
 class _EventDetailPageState extends State<EventDetailPage> {
   @override
   Widget build(BuildContext context) {
-    final event = ModalRoute.of(context)!.settings.arguments as Events;
     return SafeArea(
         child: Scaffold(
       body: Column(
@@ -30,7 +28,7 @@ class _EventDetailPageState extends State<EventDetailPage> {
                 ),
                 Expanded(
                   child: Text(
-                    event.title!,
+                    widget.event.title!,
                     style: const TextStyle(
                         fontSize: 22,
                         fontWeight: FontWeight.w900,
@@ -61,9 +59,13 @@ class _EventDetailPageState extends State<EventDetailPage> {
                 ),
               ),
               child: Image.network(
-                event.performers![0].image??"",
+                widget.event.performers![0].image??"",
                 fit: BoxFit.cover,
                 width: MediaQuery.of(context).size.width/1.12,
+                errorBuilder: (BuildContext context, Object exception,
+                    StackTrace? stackTrace) {
+                  return const Text("Invalid Data");
+                },
               ),
             ),
           ),
@@ -73,14 +75,12 @@ class _EventDetailPageState extends State<EventDetailPage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(DateFormat('EEE, d MMM yyyy hh:mm a')
-                    .format(DateTime.parse(
-                    event.datetimeUtc!)),style: const TextStyle(color: Colors.black,fontWeight: FontWeight.w700,fontSize: 20),),
+                Text(widget.event.getFormattedDate(),style: const TextStyle(color: Colors.black,fontWeight: FontWeight.w700,fontSize: 20),),
                 const SizedBox(
                   height: 10,
                 ),
                 Text(
-                  "${event.venue!.name!}, ${event.venue!.state!}",
+                  "${widget.event.venue!.name!}, ${widget.event.venue!.state!}",
                   maxLines: 1,
                   style: const TextStyle(
                       color: Colors.grey,

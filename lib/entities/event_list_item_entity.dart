@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart';
+
 class EventListItemEntity {
   List<Events>? events;
   Meta? meta;
@@ -68,6 +70,10 @@ class Events {
         this.announcements,
         this.conditional});
 
+  String getFormattedDate(){
+   return DateFormat('EEE, d MMM yyyy hh:mm a')
+       .format(DateTime.parse(datetimeUtc!));
+  }
   Events.fromJson(Map<String, dynamic> json) {
     type = json['type'];
     id = json['id'];

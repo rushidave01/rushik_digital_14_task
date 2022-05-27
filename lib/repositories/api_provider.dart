@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:rushik_digital_14_task/entities/event_list_item_entity.dart';
+import '../entities/event_list_item_entity.dart';
 
 class ApiProvider {
   final Dio _dio;

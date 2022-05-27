@@ -4,7 +4,6 @@ import 'package:rushik_digital_14_task/bloc/event_list_bloc.dart';
 import 'package:rushik_digital_14_task/bloc/event_list_events.dart';
 import 'package:rushik_digital_14_task/bloc/event_list_states.dart';
 import 'package:rushik_digital_14_task/common/common_dialog.dart';
-import 'package:intl/intl.dart';
 import 'package:rushik_digital_14_task/ui/event_detail_page.dart';
 import '../common/event_list_tile_widget.dart';
 
@@ -31,90 +30,24 @@ class _EventListingPageState extends State<EventListingPage> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return SafeArea(
-      child:
-          BlocConsumer<EventListBloc, EventListStates>(listener: (bloc, state) {
-        if (state is ErrorState) {
-          CommonDialog(
-                  context: context, title: "Alert!", message: state.message)
-              .showAlert();
-        }
-      }, builder: (context, state) {
-        return Scaffold(
-          appBar: AppBar(
-            backgroundColor: const Color.fromRGBO(15, 50, 69, 1),
-            toolbarHeight: size.height / 13,
-            title: SizedBox(
-              height: 40,
-              child: Row(
-                children: [
-                  Expanded(
-                    child: Card(
-                      color: Colors.white.withOpacity(0.4),
-                      child: TextField(
-                        controller: searchTextFieldController,
-                        focusNode: searchNode,
-                        style:
-                            const TextStyle(color: Colors.white, fontSize: 14),
-                        onChanged: (String value) {
-                          BlocProvider.of<EventListBloc>(context).add(
-                              EventListRequestEvent(
-                                  queryString: value.replaceAll(" ", "+")));
-                        },
-                        cursorColor: Colors.white,
-                        decoration: InputDecoration(
-                          hintText: "Search",
-                          enabledBorder: const UnderlineInputBorder(
-                            borderSide: BorderSide(color: Colors.transparent),
-                          ),
-                          disabledBorder: const UnderlineInputBorder(
-                            borderSide: BorderSide(color: Colors.transparent),
-                          ),
-                          focusedBorder: const UnderlineInputBorder(
-                            borderSide: BorderSide(color: Colors.transparent),
-                          ),
-                          hintStyle: const TextStyle(
-                              color: Colors.white, fontSize: 14),
-                          suffixIcon: IconButton(
-                            icon: const Icon(
-                              Icons.close_rounded,
-                              size: 14,
-                              color: Colors.white,
-                            ),
-                            onPressed: () {
-                              searchTextFieldController.clear();
-                              BlocProvider.of<EventListBloc>(context)
-                                  .add(EventListRequestEvent());
-                            },
-                          ),
-                          prefixIcon: const Icon(
-                            Icons.search,
-                            size: 18,
-                            color: Colors.white,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      BlocProvider.of<EventListBloc>(context)
-                          .add(EventListRequestEvent());
-                      searchTextFieldController.clear();
-                      searchNode.unfocus();
-                    },
-                    child: const Padding(
-                      padding: EdgeInsets.only(left: 8),
-                      child: Text(
-                        "Cancel",
-                        style: TextStyle(fontSize: 18),
-                      ),
-                    ),
-                  )
-                ],
-              ),
-            ),
+      child: Scaffold(
+        appBar: AppBar(
+          backgroundColor: const Color.fromRGBO(15, 50, 69, 1),
+          toolbarHeight: size.height / 13,
+          title: SizedBox(
+            height: 40,
+            child: getSearchBar(),
           ),
-          body: (state is LoadingState)
+        ),
+        body: BlocConsumer<EventListBloc, EventListStates>(
+            listener: (bloc, state) {
+          if (state is ErrorState) {
+            CommonDialog(
+                    context: context, title: "Alert!", message: state.message)
+                .showAlert();
+          }
+        }, builder: (context, state) {
+          return (state is LoadingState)
               ? const Center(
                   child: CircularProgressIndicator(),
                 )
@@ -129,17 +62,15 @@ class _EventListingPageState extends State<EventListingPage> {
                           title: state.entity.events![index].title!,
                           cityName:
                               "${state.entity.events![index].venue!.name!}, ${state.entity.events![index].venue!.state!}",
-                          dateAndTime: DateFormat('EEE, d MMM yyyy hh:mm a')
-                              .format(DateTime.parse(
-                                  state.entity.events![index].datetimeUtc!)),
+                          dateAndTime:
+                              state.entity.events![index].getFormattedDate(),
                           isLiked: false,
                           callback: () {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => const EventDetailPage(),
-                                settings: RouteSettings(
-                                  arguments: state.entity.events![index],
+                                builder: (context) => EventDetailPage(
+                                  event: state.entity.events![index],
                                 ),
                               ),
                             );
@@ -148,9 +79,77 @@ class _EventListingPageState extends State<EventListingPage> {
                       })
                   : const Center(
                       child: Text("No data found!!!"),
-                    ),
-        );
-      }),
+                    );
+        }),
+      ),
+    );
+  }
+
+  Widget getSearchBar() {
+    return Row(
+      children: [
+        Expanded(
+          child: Card(
+            color: Colors.white.withOpacity(0.4),
+            child: TextField(
+              controller: searchTextFieldController,
+              focusNode: searchNode,
+              style: const TextStyle(color: Colors.white, fontSize: 14),
+              onChanged: (String value) {
+                BlocProvider.of<EventListBloc>(context).add(
+                    EventListRequestEvent(
+                        queryString: value.replaceAll(" ", "+")));
+              },
+              cursorColor: Colors.white,
+              decoration: InputDecoration(
+                hintText: "Search",
+                enabledBorder: const UnderlineInputBorder(
+                  borderSide: BorderSide(color: Colors.transparent),
+                ),
+                disabledBorder: const UnderlineInputBorder(
+                  borderSide: BorderSide(color: Colors.transparent),
+                ),
+                focusedBorder: const UnderlineInputBorder(
+                  borderSide: BorderSide(color: Colors.transparent),
+                ),
+                hintStyle: const TextStyle(color: Colors.white, fontSize: 14),
+                suffixIcon: IconButton(
+                  icon: const Icon(
+                    Icons.close_rounded,
+                    size: 14,
+                    color: Colors.white,
+                  ),
+                  onPressed: () {
+                    searchTextFieldController.clear();
+                    BlocProvider.of<EventListBloc>(context)
+                        .add(EventListRequestEvent());
+                  },
+                ),
+                prefixIcon: const Icon(
+                  Icons.search,
+                  size: 18,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+          ),
+        ),
+        InkWell(
+          onTap: () {
+            BlocProvider.of<EventListBloc>(context)
+                .add(EventListRequestEvent());
+            searchTextFieldController.clear();
+            searchNode.unfocus();
+          },
+          child: const Padding(
+            padding: EdgeInsets.only(left: 8),
+            child: Text(
+              "Cancel",
+              style: TextStyle(fontSize: 18),
+            ),
+          ),
+        )
+      ],
     );
   }
 }
